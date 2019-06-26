@@ -1,0 +1,65 @@
+body {
+  	background-color:white; font-family: 
+	color: ;
+	text-align: center;
+	padding: 10px;
+} 
+
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid pink;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:crimson;
+}
+
+div {
+  border-radius: 5px;
+  background-color:pink;
+  padding: 20px;
+}
+</style>
+<body>
+
+<h3>Using CSS to style an HTML Form</h3>
+
+<div>
+  <form action="/action_page.php">
+    <label for="FirstName">First Name</label>
+    <input type="text" id="FirstName" name="Firstname" placeholder="Your  FirstName..">
+
+    <label for="SecondName">SecondName</label>
+    <input type="text" id="SecondName" name="Secondname" placeholder="Your SecondName..">
+
+    <label for="PhoneNumber">PhoneNumber</label>
+    <input type="text" id="Pnumber" number="PhoneNumber" placeholder="Your PhoneNumber..">
+
+    <label for ="EmailAddress">EmailAddress</label>
+    <input type="text" id="EmailAddress" email="EmailAddress" placeholder="Your EmailAddress..">
+
+<input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
+
+ 
